@@ -19,6 +19,8 @@ const App = () => {
 
   useEffect(() => {
     searchMovies("Batman");
+
+    //eslint-disable-next-line
   }, []);
 
   return (
